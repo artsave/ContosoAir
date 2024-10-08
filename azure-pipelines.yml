@@ -4,6 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
    pool:
+     name: default
      vmImage: 'ubuntu-18.04'
    trigger:
      - master
